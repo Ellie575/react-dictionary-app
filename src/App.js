@@ -7,7 +7,16 @@ function App() {
     <div className="App">
       <header className="App-header">Dictionary App</header>
       <Dictionary />
-      <footer className="text-center">Coded by Ellie Kubo</footer>
+      <footer className="text-center">
+        Coded by Ellie Kubo and open-sourced on{" "}
+        <a
+          href="https://github.com/Ellie575/react-dictionary-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github
+        </a>
+      </footer>
     </div>
   );
 }
